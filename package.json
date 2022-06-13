@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "npm": "^8.12.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
+  
 }
