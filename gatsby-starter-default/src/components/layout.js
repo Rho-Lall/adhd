@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import sectionSidebar from "./section-sidebar"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -43,12 +44,7 @@ const Layout = ({ children }) => {
             padding: '1em'
           }}        
         >
-          <ul>
-            <li>Advocacy</li>
-            <li>Project Management</li>
-            <li>Entitlements and Rights</li>
-            <li>Testing</li>
-          </ul>
+          <sectionSidebar/>
         </div>
 
         <div
