@@ -44,6 +44,7 @@ const Layout = ({ children }) => {
             padding: '1em'
           }}        
         >
+          {/* this still needs to be worked. Running a simple test to call this component. */}
           <sectionSidebar/>
         </div>
 
