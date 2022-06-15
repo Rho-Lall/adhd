@@ -14,7 +14,6 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        height: '50px',
         borderRight: '1px solid grey',  
         flexGrow: 1,
       }}
@@ -44,7 +43,6 @@ const Header = ({ siteTitle }) => (
     
     <div
       style={{
-        height: '50px',
         borderLeft: '1px solid grey',     
         flexGrow: 1,
         padding: '1em'

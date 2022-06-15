@@ -30,21 +30,64 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
+          padding: `var(--space-4) var(--size-gutter)`,
+          display: `flex`,
+          flexDirection: 'row',
+        }}   
       >
-        <main>{children}</main>
 
-        <footer
+        <div
           style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
+            flexGrow: 2,
+            backgroundColor: 'lightblue',
+            padding: '1em'
+          }}        
+        >
+          <ul>
+            <li>Advocacy</li>
+            <li>Project Management</li>
+            <li>Entitlements and Rights</li>
+            <li>Testing</li>
+          </ul>
+        </div>
+
+        <div
+          style={{
+            flexGrow: 3,
+            padding: '1em'
           }}
         >
-          © {new Date().getFullYear()} &middot; Rho Lall
+          <main
+            style={{
+              padding: '1em'
+            }}
+          >
+            {children}
+          </main>
 
-        </footer>
+          <footer
+            style={{
+              marginTop: `var(--space-5)`,
+              fontSize: `var(--font-sm)`,
+            }}
+          >
+            © {new Date().getFullYear()} &middot; Rho Lall
+
+          </footer>
+          
+        </div>
+
+        <div
+          style={{
+            flexGrow: 2,
+            backgroundColor: 'lightblue',
+            padding: '1em'
+          }}        
+        >
+
+        </div>
+        
+
 
       </div>
     </>
