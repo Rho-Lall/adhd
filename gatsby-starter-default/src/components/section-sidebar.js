@@ -1,23 +1,30 @@
 import * as React from "react"
-//import { Link } from "gatsby"
-import { graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 //import { node } from "prop-types"
 
-const sectionSidebar = () => {
+const SectionSidebar = () => {
+
+    const data = useStaticQuery(graphql`
+        query sections {
+            allFile(filter: {ext: {eq: ".mdx"}}) {
+            nodes {
+                name
+            }
+            }
+        }
+    `)
 
     return (
         <div>
-            <p>TEST</p>
-
-            {/* <ul>
+            <ul>
                 {
                     data.allFile.nodes.map(node => (
-                        <li key={node.name}>
-                            {node.name}
-                        </li>
-                    )) 
+                    <li key={node.name}>
+                        {node.name}
+                    </li>
+                    ))
                 }
-            </ul> */}
+            </ul>
 
         </div>
 
@@ -25,13 +32,4 @@ const sectionSidebar = () => {
     )
 }
 
-// export const query = graphql`
-// query sections {
-//     allFile(filter: {ext: {eq: ".mdx"}}) {
-//       nodes {
-//         name
-//       }
-//     }
-//   }
-// `
-export default sectionSidebar
+export default SectionSidebar
