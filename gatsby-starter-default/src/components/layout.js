@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import SectionSidebar from "./section-sidebar"
+import Navigation from "./navigation"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,57 +27,36 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      
+
       <div
         style={{
-          // I need to figure out the CSS here. What does this code do? And how to I naild down the spacing on these divs? Flex? Max Width?
-          // I guess I need to remove the template css and replace it with code that i have reviwed and understand. That means looking at layout.css.
-          display: `flex`,
+          display: 'flex',
           flexDirection: 'row',
-          justifyContent: 'center',
+          justifyContent: 'center'
         }}   
       >
         
-        <div
+        <nav
           style={{
             flexBasis: 1,
             flexGrow: 1,
-            backgroundColor: '#F5F7F9',
-            
-          }}        
+            backgroundColor: '#F5F7F9'
+          }}
         >
-          <SectionSidebar />
+          < Navigation />    
+        </nav>
 
-        </div>
-
-        <div
+        <main
           style={{
             flexBasis: 4,
             flexGrow: 4,
-            padding: '1em'
+            padding: '2em'
           }}
         >
-          <main
-            style={{
-              padding: '1em'
-            }}
-          >
-            {children}
-          </main>
+          {children}
+        </main>
 
-          <footer
-            style={{
-              marginTop: `var(--space-5)`,
-              fontSize: `var(--font-sm)`,
-            }}
-          >
-            © {new Date().getFullYear()} &middot; Rho Lall
-
-          </footer>
-          
-        </div>
-
-        <div
+        <aside
           style={{
             flexBasis: 1,
             flexGrow: 1,
@@ -85,11 +64,22 @@ const Layout = ({ children }) => {
           }}        
         >
 
-        </div>
+        </aside>
         
-
-
       </div>
+
+      <footer
+        style={{
+          marginTop: `var(--space-5)`,
+          fontSize: `var(--font-sm)`,
+          display: 'flex',
+          justifyContent: 'end',
+          paddingRight: '2em'
+        }}
+      >
+        © {new Date().getFullYear()} &middot; Rho Lall
+      </footer>
+
     </>
   )
 }

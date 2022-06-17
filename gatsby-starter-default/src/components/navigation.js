@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 //import { node } from "prop-types"
 
-const SectionSidebar = () => {
+const Navigation = () => {
 
     const data = useStaticQuery(graphql`
         query sections {
@@ -15,7 +15,7 @@ const SectionSidebar = () => {
     `)
 
     return (
-        <div style={{paddingTop: '2em'}}>
+        <div style={{paddingTop: '2em', backgroundColor: '#F5F7F9'}}>
             <ul>
                 {
                     data.allFile.nodes.map(node => (
@@ -32,4 +32,4 @@ const SectionSidebar = () => {
     )
 }
 
-export default SectionSidebar
+export default Navigation
