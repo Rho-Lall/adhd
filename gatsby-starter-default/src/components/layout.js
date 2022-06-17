@@ -32,16 +32,16 @@ const Layout = ({ children }) => {
         style={{
           // I need to figure out the CSS here. What does this code do? And how to I naild down the spacing on these divs? Flex? Max Width?
           // I guess I need to remove the template css and replace it with code that i have reviwed and understand. That means looking at layout.css.
-          margin: `0 auto`,
-          padding: `var(--space-4) var(--size-gutter)`,
           display: `flex`,
           flexDirection: 'row',
+          justifyContent: 'center',
         }}   
       >
         
         <div
           style={{
-            flexGrow: '2',
+            flexBasis: 1,
+            flexGrow: 1,
             backgroundColor: '#F5F7F9',
             
           }}        
@@ -52,7 +52,8 @@ const Layout = ({ children }) => {
 
         <div
           style={{
-            flexGrow: 3,
+            flexBasis: 4,
+            flexGrow: 4,
             padding: '1em'
           }}
         >
@@ -78,12 +79,12 @@ const Layout = ({ children }) => {
 
         <div
           style={{
-            flexGrow: 2,
-            backgroundColor: '#F5F7F9',
-            padding: '1em'
+            flexBasis: 1,
+            flexGrow: 1,
+            backgroundColor: '#F5F7F9'
           }}        
         >
-        
+
         </div>
         
 

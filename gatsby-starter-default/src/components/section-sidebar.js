@@ -19,7 +19,7 @@ const SectionSidebar = () => {
             <ul>
                 {
                     data.allFile.nodes.map(node => (
-                    <li key={node.name}>
+                    <li key={node.name} style={{listStyleType: 'none'}}>
                         {node.name}
                     </li>
                     ))

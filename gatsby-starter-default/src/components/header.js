@@ -10,13 +10,15 @@ const Header = ({ siteTitle }) => (
       justifyContent: 'center',
       alignItems: 'center',
       height: 'auto',
-      //margin: `0 auto`,
-      // padding: `var(--space-4) var(--size-gutter)`,
-      boxShadow: '1px 1px 15px 0px #ccc'
+      boxShadow: '1px 1px 15px 0px #ccc',
+      position: 'relative',
+      zIndex: '5'
+      
     }}
   >
     <div
       style={{  
+        flexBasis: 1,
         flexGrow: 1,
       }}
     >
@@ -37,6 +39,7 @@ const Header = ({ siteTitle }) => (
 
     <div
       style={{
+        flexBasis: 4,
         flexGrow: 4,
         borderRight: '1px solid grey',
         borderLeft: '1px solid grey',
@@ -48,6 +51,7 @@ const Header = ({ siteTitle }) => (
     
     <div
       style={{ 
+        flexBasis: 1,
         flexGrow: 1,
         paddingLeft: '.5em'
       }} 
