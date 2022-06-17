@@ -15,11 +15,11 @@ const SectionSidebar = () => {
     `)
 
     return (
-        <div>
+        <div style={{paddingTop: '2em'}}>
             <ul>
                 {
                     data.allFile.nodes.map(node => (
-                    <li key={node.name} style={{listStyleType: 'none'}}>
+                    <li key={node.name} style={{listStyleType: 'none', font: 'var(--font-sx)'}}>
                         {node.name}
                     </li>
                     ))
