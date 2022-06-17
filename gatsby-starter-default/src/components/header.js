@@ -41,8 +41,8 @@ const Header = ({ siteTitle }) => (
       style={{
         flexBasis: 4,
         flexGrow: 4,
-        borderRight: '1px solid grey',
-        borderLeft: '1px solid grey',
+        borderRight: '1px dotted grey',
+        borderLeft: '1px dotted grey',
         padding: '1em'
       }}      
     >

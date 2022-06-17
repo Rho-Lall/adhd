@@ -60,10 +60,22 @@ const Layout = ({ children }) => {
           style={{
             flexBasis: 1,
             flexGrow: 1,
-            backgroundColor: '#F5F7F9'
+            marginTop: '2em',
+            padding: '.5em',
+            borderLeft: '1px dotted grey',
+            alignSelf: 'flex-start'
           }}        
         >
-
+          <ul style={{}}>
+            <li style={{listStyleType: 'none'}}>
+              
+                <img src="https://img.icons8.com/material-sharp/24/undefined/export-pdf.png"/> Export as PDF
+              
+            </li>
+            <li style={{listStyleType: 'none'}}>
+              <img src="https://img.icons8.com/ios-filled/25/undefined/copy-link.png"/> Copy Link
+            </li>
+          </ul>
         </aside>
         
       </div>
