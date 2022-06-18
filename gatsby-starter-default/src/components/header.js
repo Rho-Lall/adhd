@@ -46,7 +46,7 @@ const Header = ({ siteTitle }) => (
         padding: '1em'
       }}      
     >
-      ADHD Advocacy Guidebook for Parents
+      Resource Guide for Faculty & Parents of Students with ADHD
     </div>
     
     <div

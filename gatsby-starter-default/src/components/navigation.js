@@ -5,22 +5,27 @@ import { graphql, useStaticQuery } from "gatsby"
 const Navigation = () => {
 
     const data = useStaticQuery(graphql`
-        query sections {
-            allFile(filter: {ext: {eq: ".mdx"}}) {
-            nodes {
-                name
-            }
-            }
+    query contents {
+      allMdx(sort: {order: ASC, fields: frontmatter___chapter}) {
+        nodes {
+          frontmatter {
+            title
+            chapter
+          }
+          id
         }
+      }
+    }
+      
     `)
 
     return (
         <div style={{paddingTop: '2em', backgroundColor: '#F5F7F9'}}>
             <ul>
                 {
-                    data.allFile.nodes.map(node => (
-                    <li key={node.name} style={{listStyleType: 'none', font: 'var(--font-sx)'}}>
-                        {node.name}
+                    data.allMdx.nodes.map((node) => (
+                    <li key={node.id} style={{listStyleType: 'none', font: 'var(--font-sx)'}}>
+                        {node.frontmatter.title}
                     </li>
                     ))
                 }
