@@ -2,6 +2,7 @@ import { graphql, Link } from 'gatsby'
 import * as React from 'react'
 import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Article = ({ data }) => {
     return(
@@ -56,7 +57,7 @@ const Article = ({ data }) => {
                     {
                         data.mdx.tableOfContents.items.map(item => (
                             <li key={item.title} style={{listStyleType: 'none'}}>                    
-                                <Link to={`${item.url}`} style={{textDecoration:'none'}}>{item.title}</Link>
+                                <AnchorLink to={`${item.url}`} style={{textDecoration:'none'}}>{item.title}</AnchorLink>
                             </li>
                         ))
                     }
