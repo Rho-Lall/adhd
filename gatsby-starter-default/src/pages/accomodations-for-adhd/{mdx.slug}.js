@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import * as React from 'react'
 import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
@@ -8,7 +8,6 @@ const Article = ({ data }) => {
         <Layout>
             {/* I need to add the page title. I also need the meta set up for each page. The layout should accept data.mdx.title as a parameter. */}
             {/* Setup links.  Update Blog page to link to each post - PART 6 in the tut.*/}
-            {/* Set up H2  Table of Contents.*/}
 
             <div
                 style={{
@@ -57,7 +56,7 @@ const Article = ({ data }) => {
                     {
                         data.mdx.tableOfContents.items.map(item => (
                             <li key={item.title} style={{listStyleType: 'none'}}>                    
-                                {item.title}
+                                <Link to={`${item.url}`} style={{textDecoration:'none'}}>{item.title}</Link>
                             </li>
                         ))
                     }

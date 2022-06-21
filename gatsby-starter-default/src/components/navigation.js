@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 //import { node } from "prop-types"
 
 const Navigation = () => {
@@ -13,6 +13,7 @@ const Navigation = () => {
             chapter
           }
           id
+          slug
         }
       }
     }
@@ -25,7 +26,9 @@ const Navigation = () => {
                 {
                     data.allMdx.nodes.map((node) => (
                     <li key={node.id} style={{listStyleType: 'none', font: 'var(--font-sx)'}}>
-                        {node.frontmatter.title}
+                        <Link to={`/accomodations-for-adhd/${node.slug}`} style={{textDecoration:'none'}}>
+                          {node.frontmatter.title}
+                        </Link>
                     </li>
                     ))
                 }
