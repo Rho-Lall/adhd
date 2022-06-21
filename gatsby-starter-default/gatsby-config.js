@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `rho-lall.github.io`,
+    title: `Accomodations for ADHD @ rho-lall.github.io/adhd`,
     description: ``,
     author: `@rho_lall`,
     siteUrl: `https://rho-lall.github.io/adhd`,
