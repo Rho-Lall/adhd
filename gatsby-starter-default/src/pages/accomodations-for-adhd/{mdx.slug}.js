@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import Seo from "../../components/seo"
-import { getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import {Helmet} from 'react-helmet'
 
 const Article = ({ data }) => {
@@ -34,6 +34,8 @@ const Article = ({ data }) => {
                 }}  
             >
                 <h1>{data.mdx.frontmatter.title}</h1>
+
+                {/* <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt}/> */}
 
                 <MDXRenderer>
                     {data.mdx.body}
@@ -101,6 +103,12 @@ query content($id: String) {
         publish(formatString: "MMMM DD, YYYY")
         update(formatString: "MMMM DD, YYYY")
         short
+        hero_alt
+        hero_image {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
       slug
       body
