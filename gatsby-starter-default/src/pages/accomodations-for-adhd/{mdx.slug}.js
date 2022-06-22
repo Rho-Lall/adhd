@@ -4,12 +4,28 @@ import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import Seo from "../../components/seo"
+import { getImage } from 'gatsby-plugin-image'
+import {Helmet} from 'react-helmet'
 
 const Article = ({ data }) => {
+
+    const image = getImage(data.mdx.frontmatter.hero_image)
+
     return(
         <Layout>
             <Seo title={data.mdx.frontmatter.title} />
-            {/* I need to add the meta set up for each page along with a hero image for sharing. */}
+            <Helmet>
+                <meta name="description" content={data.mdx.frontmatter.short}/>
+                <meta name="keywords" content={data.mdx.frontmatter.keywords}/>
+                <meta name="author" content="Rho Lall"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:description" content={data.mdx.frontmatter.short}/>
+                <meta property="og:image" content={image}/>
+                <meta property="og:image:alt" content={data.mdx.frontmatter.title}/>
+                <meta property="og:locale" content="en_US"/>
+                <meta property="og:url" content="https://rho-lall.github.io/adhd"/>
+                <link rel="canonical" href="https://rho-lall.github.io./adhd"/>
+            </Helmet>
 
             <div
                 style={{
@@ -37,11 +53,11 @@ const Article = ({ data }) => {
                 <ul style={{}}>
                     <li style={{listStyleType: 'none'}}>
                     
-                        <img src="https://img.icons8.com/material-sharp/24/undefined/export-pdf.png"/> Export as PDF
+                        <img src="https://img.icons8.com/material-sharp/24/undefined/export-pdf.png" alt="export PDF"/> Export as PDF
                     
                     </li>
                     <li style={{listStyleType: 'none'}}>
-                    <img src="https://img.icons8.com/ios-filled/25/undefined/copy-link.png"/> Copy Link
+                    <img src="https://img.icons8.com/ios-filled/25/undefined/copy-link.png" alt="copy link"/> Copy Link
                     </li>
                 </ul>
 
