@@ -76,7 +76,7 @@ const Article = ({ data }) => {
                     {
                         data.mdx.tableOfContents.items.map(item => (
                             <li key={item.title} style={{listStyleType: 'none'}}>                    
-                                <AnchorLink to={`${item.url}`} style={{textDecoration:'none'}}>{item.title}</AnchorLink>
+                                <AnchorLink to={`${item.url}`}>{item.title}</AnchorLink>
                             </li>
                         ))
                     }
