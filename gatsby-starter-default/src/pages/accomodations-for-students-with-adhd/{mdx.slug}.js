@@ -18,6 +18,7 @@ const Article = ({ data }) => {
                 <meta name="description" content={data.mdx.frontmatter.short}/>
                 <meta name="keywords" content={data.mdx.frontmatter.keywords}/>
                 <meta name="author" content="Rho Lall"/>
+                <meta property="og:title" content={data.mdx.frontmatter.title}/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:description" content={data.mdx.frontmatter.short}/>
                 <meta property="og:image" content={image}/>
@@ -35,8 +36,8 @@ const Article = ({ data }) => {
             >
                 <h1>{data.mdx.frontmatter.title}</h1>
 
-                {/* <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt}/> */}
-
+                <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt} style={{marginBottom:'1em'}}/>
+            
                 <MDXRenderer>
                     {data.mdx.body}
                 </MDXRenderer>
