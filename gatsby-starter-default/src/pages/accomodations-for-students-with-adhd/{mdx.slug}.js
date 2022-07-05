@@ -36,7 +36,7 @@ const Article = ({ data }) => {
             >
                 <h1>{data.mdx.frontmatter.title}</h1>
 
-                <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt} style={{marginBottom:'1em'}}/>
+                {/* <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt} style={{marginBottom:'1em'}}/> */}
             
                 <MDXRenderer>
                     {data.mdx.body}
