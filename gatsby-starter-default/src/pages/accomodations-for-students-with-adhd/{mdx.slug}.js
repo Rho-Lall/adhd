@@ -41,6 +41,18 @@ const Article = ({ data }) => {
                 <MDXRenderer>
                     {data.mdx.body}
                 </MDXRenderer>
+
+                <h3>A note on terms and references.</h3>
+                <p>
+                    The reference sources such as the Individuals with Disabilities Education Act & Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act speak about “individuals with disabilities” generally but also make specific mention of ADHD in the law.
+                </p>
+
+                <p>
+                    This resource is written specifically for ADHD elementary students and discusses specific accomodations for students with ADHD. When the law mentions “individuals with disabilities” generally I may use these terms interchangeably: accomodations for adhd, accomodations for students with adhd, adhd elementary students.
+                </p>
+                <p>
+                    When ADHD is discussed directly I provide the reference to the law.
+                </p>
             </div>
 
             <aside
@@ -81,8 +93,6 @@ const Article = ({ data }) => {
                             </li>
                         ))
                     }
-
-
 
                 </ul>
 
