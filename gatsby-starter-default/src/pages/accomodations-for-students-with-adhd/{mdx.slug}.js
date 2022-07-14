@@ -6,6 +6,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import Seo from "../../components/seo"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import {Helmet} from 'react-helmet'
+import { Link } from "gatsby"
 
 const Article = ({ data }) => {
 
@@ -44,14 +45,14 @@ const Article = ({ data }) => {
 
                 <h3>A Note on Terms and References.</h3>
                 <p>
-                    Reference sources such as the Individuals with Disabilities Education Act & Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act speak about “individuals with disabilities” generally but also make specific mention of ADHD in the language of the law.
+                    Reference sources such as the <Link to='https://sites.ed.gov/idea/statute-chapter-33/subchapter-i/1400'>Individuals with Disabilities Education Act</Link> & Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act speak about “individuals with disabilities” generally but also make specific mention of ADHD in the language of the law.
                 </p>
 
                 <p>
                     This resource is written specifically for ADHD elementary students and discusses specific accomodations for students with ADHD. When the law mentions “individuals with disabilities” generally I may use these terms interchangeably: accomodations for ADHD, accomodations for students with ADHD, ADHD elementary students.
                 </p>
                 <p>
-                    When the language of a law addresses ADHD directly I provide a reference to the source material.
+                    When the language of a law addresses ADHD directly I provide <Link to='https://sites.ed.gov/idea/statute-chapter-33/subchapter-i/1400'>a reference to the source material.</Link>
                 </p>
             </div>
 
