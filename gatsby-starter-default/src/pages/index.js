@@ -10,7 +10,7 @@ import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="ADHD Advocacy GuideBook for Parents" />
+    <Seo title="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers." />
     <div>
 
       <h1>A good education, is the most important gift you can give your child.</h1> 
