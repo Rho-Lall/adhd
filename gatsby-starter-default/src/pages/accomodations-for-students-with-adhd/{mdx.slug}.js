@@ -1,5 +1,6 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
+import "../../components/layout.css"
 import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
@@ -64,7 +65,8 @@ const Article = ({ data }) => {
                     padding: '.5em',
                     borderLeft: '1px dotted grey',
                     alignSelf: 'flex-start'
-                }}        
+                }}
+                className='hideOnMobile'        
             >
                 <ul style={{}}>
                     <li style={{listStyleType: 'none'}}>

@@ -1,11 +1,13 @@
 import * as React from "react"
+import "./layout.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      display: `flex`,
+      display: 'flex',
       flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
@@ -16,11 +18,12 @@ const Header = ({ siteTitle }) => (
       
     }}
   >
-    <div
+    <div      
       style={{  
         flexBasis: 1,
         flexGrow: 1,
       }}
+      className="hideOnMobile"
     >
       <Link
         to="/"
@@ -46,7 +49,7 @@ const Header = ({ siteTitle }) => (
         padding: '1em'
       }}      
     >
-      Resource Guide for Faculty & Parents of Students with ADHD
+      Resources for Faculty & Parents of Students with ADHD
     </div>
     
     <div
@@ -55,6 +58,7 @@ const Header = ({ siteTitle }) => (
         flexGrow: 1,
         paddingLeft: '.5em'
       }} 
+      className="hideOnMobile"
     >
       🔍  Search . . .
     </div>

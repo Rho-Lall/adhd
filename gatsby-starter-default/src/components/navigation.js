@@ -25,7 +25,7 @@ const Navigation = () => {
             <ul>
                 {
                     data.allMdx.nodes.map((node) => (
-                    <li key={node.id} style={{listStyleType: 'none', font: 'var(--font-sx)'}}>
+                    <li key={node.id} style={{listStyleType: 'none', font: 'var(--font-sx)', paddingTop: '.3em', paddingRight: '.2em'}}>
                         <Link to={`/accomodations-for-students-with-adhd/${node.slug}`} style={{textDecoration:'none'}}>
                           {node.frontmatter.title}
                         </Link>
