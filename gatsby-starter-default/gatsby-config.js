@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Accomodations for ADHD @ rho-lall.github.io/adhd`,
-    description: ``,
+    description: `Accomodations for ADHD and other resources to develop accommodations for ADHD elementary students, thier parents, and teachers.`,
     author: `@rho_lall`,
     siteUrl: `https://rho-lall.github.io/adhd`,
   },
