@@ -5,6 +5,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 //import * as styles from "../components/index.module.css"
 
+// MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
+// Functional Open Graph links for social media with images
+// hamburger menu on mobile
+// CSS formating of content area so it is justified and centered on the title
+// Working Search
+// Working Copy Link - should add url to clipboard
+// Export to PDF should link to another page so we can track the need for this feature, maybe an opt-in page
 
 
 const IndexPage = () => (
