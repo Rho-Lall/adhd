@@ -8,11 +8,31 @@ import Seo from "../components/seo"
 // MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
 // Functional Open Graph links for social media with images
 // hamburger menu on mobile
-// CSS formating of content area so it is justified and centered on the title
+
+// CSS FORMATING
+// content area is justified and centered on the title
+// Headers are black 
+// Structural headers are small, light grey, ALL CAPS
+// text is light grey, and smaller
+// links are purple (no underline) and underline on hover
+
 // Working Search
 // Working Copy Link - should add url to clipboard
 // Export to PDF should link to another page so we can track the need for this feature, maybe an opt-in page
 
+// VERSION II
+
+// DOCS in the title is replaced with smaller pill tha reads DOCS.
+
+// PAGE STRUCTURE
+// Top link to a specific MAIN page, possibly "accomodations for ADHD" ?
+// Navication at the top?
+// Outline icon (right justified content)
+// Scroll bar on Contents
+// Carrots for dropdown menus
+// Dropdown Menus
+// Powered By Rho Lall with an Image
+// Previous / Next Buttons
 
 const IndexPage = () => (
   <Layout>
