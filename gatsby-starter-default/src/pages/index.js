@@ -22,7 +22,9 @@ import {Helmet} from 'react-helmet'
 // Working Copy Link - should add url to clipboard
 // Export to PDF should link to another page so we can track the need for this feature, maybe an opt-in page
 
+
 // VERSION II
+
 
 // DOCS in the title is replaced with smaller pill tha reads DOCS.
 
@@ -40,16 +42,16 @@ import {Helmet} from 'react-helmet'
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers." />
+    <Seo title="Accommodations for ADHD & Resources for Students with ADHD, Parents, & Teachers." />
     <Helmet>
         <meta name="description" content="Accomodations for ADHD and other resources to develop accommodations for ADHD elementary students, thier parents, and teachers."/>
         <meta name="keywords" content="accommodations for adhd, accommodations for students with adhd, accommodations for adhd elementary students"/>
         <meta name="author" content="Rho Lall"/>
-        <meta property="og:title" content="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers."/>
+        <meta property="og:title" content="Accommodations for ADHD & Resources for Students with ADHD, Parents, & Teachers."/>
         <meta property="og:type" content="website"/>
         <meta property="og:description" content="Accomodations for ADHD and other resources to develop accommodations for ADHD elementary students, thier parents, and teachers."/>
         <meta property="og:image" content="../../blog/media/advocacy.png"/>
-        <meta property="og:image:alt" content="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers."/>
+        <meta property="og:image:alt" content="Accommodations for ADHD & Resources for Students with ADHD, Parents, & Teachers."/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:url" content="https://rho-lall.github.io/adhd"/>
         <link rel="canonical" href="https://rho-lall.github.io./adhd"/>
