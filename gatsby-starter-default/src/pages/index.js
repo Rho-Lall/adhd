@@ -1,8 +1,10 @@
 import * as React from "react"
 //import { Link } from "gatsby"
-//import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
+//import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import {Helmet} from 'react-helmet'
 //import * as styles from "../components/index.module.css"
 
 // MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
@@ -34,12 +36,31 @@ import Seo from "../components/seo"
 // Powered By Rho Lall with an Image
 // Previous / Next Buttons
 
+//const image = getImage('./media/504_plan_or_iep.png')
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers." />
+    <Helmet>
+        <meta name="description" content="Accomodations for ADHD and other resources to develop accommodations for ADHD elementary students, thier parents, and teachers."/>
+        <meta name="keywords" content="accommodations for adhd, accommodations for students with adhd, accommodations for adhd elementary students"/>
+        <meta name="author" content="Rho Lall"/>
+        <meta property="og:title" content="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:description" content="Accomodations for ADHD and other resources to develop accommodations for ADHD elementary students, thier parents, and teachers."/>
+        <meta property="og:image" content="../../blog/media/advocacy.png"/>
+        <meta property="og:image:alt" content="Accommodations for ADHD & Resources for Students with ADHD, their Parents, & Teachers."/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:url" content="https://rho-lall.github.io/adhd"/>
+        <link rel="canonical" href="https://rho-lall.github.io./adhd"/>
+    </Helmet>
+
     <div>
 
       <h1>A good education, is the most important gift you can give your child.</h1> 
+      {/* <GatsbyImage image={image} alt={"Accomodations for ADHD"} style={{marginBottom:'1em'}}/> */}
+
+      <StaticImage src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
       <p>
         As a parent of a child with the disability, you have two goals. One to ensure the school provides your child with <span>a free appropriate public education</span>, that includes special education and related services designed to meet your child's unique needs and prepare them for further education, employment, and independent living. Second, to build a healthy working relationship with school personnel. 
       </p>

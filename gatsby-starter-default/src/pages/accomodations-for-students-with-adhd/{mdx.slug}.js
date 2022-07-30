@@ -11,7 +11,7 @@ import { Link } from "gatsby"
 
 const Article = ({ data }) => {
 
-    const image = getImage(data.mdx.frontmatter.hero_image)
+    const image = getImage("./media/504_plan_or_iep.png")
 
     return(
         <Layout>
@@ -117,12 +117,6 @@ query content($id: String) {
         publish(formatString: "MMMM DD, YYYY")
         update(formatString: "MMMM DD, YYYY")
         short
-        hero_alt
-        hero_image {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
       }
       slug
       body
