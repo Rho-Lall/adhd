@@ -5,14 +5,15 @@ import Layout from '../../components/layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import Seo from "../../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import {Helmet} from 'react-helmet'
 import { Link } from "gatsby"
 
 const Article = ({ data }) => {
 
-    const image = getImage("./media/504_plan_or_iep.png")
-
+    const image = getImage("../../blog/media/advocacy.png")
+    
     return(
         <Layout>
             <Seo title={data.mdx.frontmatter.title} />
@@ -38,8 +39,8 @@ const Article = ({ data }) => {
             >
                 <h1>{data.mdx.frontmatter.title}</h1>
 
-                {/* <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt} style={{marginBottom:'1em'}}/> */}
-            
+                {/* <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_alt} style={{marginBottom:'1em'}}/>
+                <StaticImage src="../../blog/media/testing.png" alt="Accomodations for ADHD"/> */}
                 <MDXRenderer>
                     {data.mdx.body}
                 </MDXRenderer>
