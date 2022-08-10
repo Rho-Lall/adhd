@@ -63,13 +63,15 @@ const IndexPage = () => (
       {/* <GatsbyImage image={image} alt={"Accomodations for ADHD"} style={{marginBottom:'1em'}}/> */}
 
       <StaticImage src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
+      <br/>
+      <br/>
       <p>
-        As a parent of a child with the disability, you have two goals. One to ensure the school provides your child with <span>a free appropriate public education</span>, that includes special education and related services designed to meet your child's unique needs and prepare them for further education, employment, and independent living. Second, to build a healthy working relationship with school personnel. 
+        As a parent of a student with ADHD, you have two objectives. First, ensure your child receives a free appropriate public education, which includes special education and related services tailored to his or her specific needs in order to prepare them for further study, employment, and independent living. Second, establish a healthy working relationship with school staff.
       </p>
 
-      <h2>A note to special educators.</h2> 
+      <h2>A note to teachers who work with students with ADHD.</h2>  
         <p>
-        If emotions are under control on both sides, you will find it easier to work with parents, who learn the law. These parents want their children to learn. They want you to succeed. When parents document events and agreements, help their teams stay on task, and build strong working relationships with school personnel, everyone wins. Especially the children.
+          When emotions are under control on both sides, parents are easier to work with when they understand the law. Parents want their children to learn. Parents want your success. When parents preserve notes of events and agreements, help their IEP team stay on track, and foster positive working relationships with teachers and other professionals, everyone benefits. Especially the child.
         </p>
 
 
