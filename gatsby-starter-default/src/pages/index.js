@@ -77,8 +77,7 @@ const IndexPage = () => (
 
       <h2>Step One. Request to have your child tested for an IEP.</h2> 
       <p>
-        The school needs to get your written permission to test your child. At the very least you will need to sign a release. There could be other documents you need to fill out as well. Ask for copies of everything.
-        If you get pushback from the front desk, just ask them for the documents that you need to fill out so you can get started on them.
+        The school needs to get your written permission to test your child. At the very least you will need to sign a release. There could be other documents you need to fill out as well. Ask for copies of everything. If the person at the front desk isn't familiar with the process, just ask them for the documents that you need to fill out so you can get started on them.
       </p>
 
       <h2>Step Two. Get Organized. </h2>
