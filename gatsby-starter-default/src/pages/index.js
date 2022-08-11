@@ -77,48 +77,47 @@ const IndexPage = () => (
 
       <h2>Step One. Request to have your child tested for an IEP.</h2> 
       <p>
-        The school needs to get your written permission to test your child. At the very least you will need to sign a release. There could be other documents you need to fill out as well. Ask for copies of everything. If the person at the front desk isn't familiar with the process, just ask them for the documents that you need to fill out so you can get started on them.
+        How can I assist my child who is having trouble in school? Request for your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data. 
       </p>
 
       <h2>Step Two. Get Organized. </h2>
       <p>
-        Having documentation at your fingertips is vital. You want to get organized and stay organized.
+        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't preparation for the work at hand. This is the work at hand.
       </p>
 
       <h2>Step Three. Test Your Child. </h2>
       <p>
-        You want to have independent evaluations done as well.
+        The evaluation requires a variety of assessment tools and strategies to gather information about your child's academic ability as well as functional and developmental ability.
+      </p> 
+      <p>
+        This is the time to start developing subject matter expertise, so start reading.
       </p>
   
-      <h2>Step Four. Meet with the school.</h2>
+      <h2>Step Four. Review the results with the school.</h2>
       <p>
-        Discuss and review the tests.
-        Understand what the different tests are.
-        Understand the results of the tests.
-        Determine significance of the results, what does this mean for your child?
-        Gather feedback from medical team to identify the child’s needs.
-      </p>
-      <p>
-        There might be pushback from the school that the child doesn’t qualify for an IEP. 
-        Kow the eligibility criteria for an IEP (statutory, regulatory, & case law)
-        What are the local laws, and school board policies?
-        What other pertinent information do you need to know about eligabiilty
+        The school must use a variety of technically sound instruments to assess the relative contribution of these factors: cognitive, behavioral, physical, and developmental. Is there sufficient evidence to present an assessment in each area? 
       </p>
 
-      <h2>Step Five. What is an IEP?</h2>
+      <h2>Step Five. Qualify For Services.</h2>
       <p>
-        What to expect in the IEP meeting
-        Understand what your role is and what you bring to the table
-        Then we can talk about testing, subject matter expertise, project management, etc 
-        What the agenda should be, the purpose of the meeting(s)?
-        How frequently are they going to be held?
-      </p>  
-      
-      <h2>Step Six. Managing Your IEP Meeting</h2>
-        Peparing for your first IEP meeting
+        Does an ADHD student qualify for special education? What is the criteria? After completing the evaluation of existing data and the preliminary evaluation, a team of experienced experts and the parent determine whether special education and related services are required.
+      </p>
+
+      <h2>Step Six. Develop a Plan</h2>
+      <p>
+      Peparing for your first IEP meeting
         Project Management.
         RACI Matrix.
         SMART IEP Goals and OKRs.
+      </p>  
+      
+      <h2>Step Six. Managing Your IEP Meeting</h2>
+      <p>
+        Understand what your role is and what you bring to the table
+        What the agenda should be, the purpose of the meeting(s)?
+        How frequently are they going to be held?
+      </p>
+        
     </div>
   </Layout>
 )
