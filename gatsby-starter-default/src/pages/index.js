@@ -77,12 +77,12 @@ const IndexPage = () => (
 
       <h2>Step One. Request to have your child tested for an IEP.</h2> 
       <p>
-        How can I assist my child who is having trouble in school? Request for your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data. 
+        Your child is struggling in school. Are you puzzling over how you can help? You can request for your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data. 
       </p>
 
       <h2>Step Two. Get Organized. </h2>
       <p>
-        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't preparation for the work at hand. This is the work at hand.
+        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't a prelude to the job. This is the job. It's time to set up your binder.
       </p>
 
       <h2>Step Three. Test Your Child. </h2>
@@ -100,22 +100,21 @@ const IndexPage = () => (
 
       <h2>Step Five. Qualify For Services.</h2>
       <p>
-        Does an ADHD student qualify for special education? What is the criteria? After completing the evaluation of existing data and the preliminary evaluation, a team of experienced experts and the parent determine whether special education and related services are required.
+        Does an ADHD student qualify for special education? What are the criteria? After completing the evaluation and review of the data available, a team of qualified professionals, parents, and (if appropriate) the student determine whether special education and related services are required.
       </p>
 
       <h2>Step Six. Develop a Plan</h2>
       <p>
-      Peparing for your first IEP meeting
-        Project Management.
-        RACI Matrix.
-        SMART IEP Goals and OKRs.
+        What is an IEP? What is a 504 Plan? How do they differ? Which option is better for your child? Each has its own set of rules. You should be familiar with the distinctions to ensure that the correct plan is employed for your child.
       </p>  
-      
-      <h2>Step Six. Managing Your IEP Meeting</h2>
+
       <p>
-        Understand what your role is and what you bring to the table
-        What the agenda should be, the purpose of the meeting(s)?
-        How frequently are they going to be held?
+      Keep in mind that the team starts by discussing the needs of the child. The next step is to determine what services are required. The team also decides where the services should be delivered. One of the goals of IDEA is for a kid with a disability to receive an education that is similar to that provided to children without disabilities,  in the Least Restrictive Environment.
+      </p>
+      
+      <h2>Step Seven. Beyond the IEP Meeting</h2>
+      <p>
+        As you go beyond the meeting, a file folder or binder will come in very handy for tracking your child's educational documents and history of needs and services. When there are disagreements or when the process breaks down it is best to seek to resolve difficulties at the lowest possible level. Most resolution options have a process or chain of command to follow. Having an organized binder is essential to navigating the process chain.
       </p>
         
     </div>
