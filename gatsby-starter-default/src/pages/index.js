@@ -80,12 +80,7 @@ const IndexPage = () => (
         Your child is struggling in school. Are you puzzling over how you can help? You can request for your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data. 
       </p>
 
-      <h2>Step Two. Get Organized. </h2>
-      <p>
-        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't a prelude to the job. This is the job. It's time to set up your binder.
-      </p>
-
-      <h2>Step Three. Test Your Child. </h2>
+      <h2>Step Two. Test Your Child. </h2>
       <p>
         The evaluation requires a variety of assessment tools and strategies to gather information about your child's academic ability as well as functional and developmental ability.
       </p> 
@@ -93,6 +88,11 @@ const IndexPage = () => (
         This is the time to start developing subject matter expertise, so start reading.
       </p>
   
+      <h2>Step Three. Get Organized. </h2>
+      <p>
+        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't a prelude to the job. This is the job. It's time to set up your binder.
+      </p>
+
       <h2>Step Four. Review the results with the school.</h2>
       <p>
         The school must use a variety of technically sound instruments to assess the relative contribution of these factors: cognitive, behavioral, physical, and developmental. Is there sufficient evidence to present an assessment in each area? 
