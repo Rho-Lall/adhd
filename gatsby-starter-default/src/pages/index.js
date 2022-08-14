@@ -8,8 +8,9 @@ import {Helmet} from 'react-helmet'
 //import * as styles from "../components/index.module.css"
 
 // MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
-// Functional Open Graph links for social media with images
 // hamburger menu on mobile
+// PREVIOUS / NEXT buttons
+// Functional Open Graph links for social media with images
 
 // CSS FORMATING
 // content area is justified and centered on the title
