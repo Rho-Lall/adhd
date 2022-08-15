@@ -6,11 +6,13 @@ const Hamburger = () => {
 
     const [nav, showNav] = useState(false)
 
+    const handleClick = () => showNav(!nav)
+
     return (
         <div
             role='button' 
             nav={nav} 
-            onClick={ () => showNav(!nav) }
+            onClick={handleClick}
             style={{
                 display: 'flex',
                 flexDirection:'column',
