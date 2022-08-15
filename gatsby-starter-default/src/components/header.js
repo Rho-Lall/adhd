@@ -2,7 +2,7 @@ import * as React from "react"
 import "./layout.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-
+import Hamburger from "./hamburger"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -18,6 +18,16 @@ const Header = ({ siteTitle }) => (
       
     }}
   >
+    <div      
+      style={{  
+        flexBasis: 1,
+        flexGrow: 1,
+      }}
+      className="showOnMobile"
+    >
+      <Hamburger/>
+    </div>
+
     <div      
       style={{  
         flexBasis: 1,

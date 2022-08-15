@@ -233,4 +233,17 @@ pre tt:after {
   .hideOnMobile {
     display: block;
   }
+  .showOnMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .showOnMobile {
+    display: block;
+  }
+}
+
+.btn {
+  position: fixed;
 }
