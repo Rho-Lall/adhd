@@ -21,7 +21,7 @@ const Navigation = () => {
     `)
 
     return (
-        <div style={{paddingTop: '2em', backgroundColor: '#F5F7F9'}} className="hideOnMobile">
+        <div style={{paddingTop: '2em', backgroundColor: ''}} className="">
             <ul>
                 {
                     data.allMdx.nodes.map((node) => (

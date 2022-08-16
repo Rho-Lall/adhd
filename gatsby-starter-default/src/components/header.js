@@ -2,9 +2,9 @@ import * as React from "react"
 import "./layout.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import Hamburger from "./hamburger"
 
 const Header = ({ siteTitle }) => (
+
   <header
     style={{
       display: 'flex',
@@ -18,16 +18,6 @@ const Header = ({ siteTitle }) => (
       
     }}
   >
-    <div      
-      style={{  
-        flexBasis: 1,
-        flexGrow: 1,
-      }}
-      className="showOnMobile"
-    >
-      <Hamburger/>
-    </div>
-
     <div      
       style={{  
         flexBasis: 1,
@@ -56,7 +46,8 @@ const Header = ({ siteTitle }) => (
         flexGrow: 4,
         borderRight: '1px dotted grey',
         borderLeft: '1px dotted grey',
-        padding: '1em'
+        padding: '1em',
+        textAlign: 'right'
       }}      
     >
       Resources for Faculty & Parents of Students with ADHD

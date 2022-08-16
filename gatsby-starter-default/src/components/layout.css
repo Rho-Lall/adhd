@@ -244,6 +244,23 @@ pre tt:after {
   }
 }
 
-.btn {
-  position: fixed;
+.dwn {
+  transform-origin: 1px;
+  transform: rotate(45deg);
+  transition: transform 300ms;
+}
+
+.upp {
+  transform-origin: 1px;
+  transform: rotate(-45deg);
+  transition: transform 300ms;
+}
+
+.toggleopacity {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.hide {
+  transform: translateX(-150%);
 }
