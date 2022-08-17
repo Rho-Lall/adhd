@@ -43,11 +43,11 @@ const Layout = ({ children }) => {
             // flexBasis: 1,
             // flexGrow: 1,
             backgroundColor: '#F5F7F9',
-            Width: '300px'
+            width: '260px'
           }}
           className="hideOnMobile"
         >
-          < Navigation />    
+          < Navigation/>    
         </nav>
 
         <main

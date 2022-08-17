@@ -41,7 +41,7 @@ const Hamburger = () => {
                 top: '0',
                 left: '0',
                 height: '100vh',
-                width: '40%',
+                width: '100%',
                 background: '#d7d7d7',
                 opacity: '.95'
 

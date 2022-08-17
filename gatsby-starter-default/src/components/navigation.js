@@ -21,7 +21,7 @@ const Navigation = () => {
     `)
 
     return (
-        <div style={{paddingTop: '3em', maxWidth: '260px', paddingRight: '2em'}} className="">
+        <div style={{paddingTop: '3em', paddingRight: '2em'}} className="">
             
             <Link to={`/`} style={{textDecoration:'none', font: 'var(--font-sx)', fontWeight: 'bold', paddingLeft: '1.5rem', paddingRight: '.2em'}}>
               Start Here
