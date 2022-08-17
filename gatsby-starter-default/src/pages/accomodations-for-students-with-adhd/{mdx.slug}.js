@@ -35,6 +35,7 @@ const Article = ({ data }) => {
                 style={{
                     flexBasis: 5,
                     flexGrow: 5,
+                    paddingRight: '2em'
                 }}  
             >
                 <h1>{data.mdx.frontmatter.title}</h1>
@@ -60,12 +61,12 @@ const Article = ({ data }) => {
 
             <aside
                 style={{
-                    flexBasis: 1,
-                    flexGrow: 1,
+                    width: '240px',
                     marginTop: '2em',
                     padding: '.5em',
                     borderLeft: '1px dotted grey',
                     alignSelf: 'flex-start'
+                    
                 }}
                 className='hideOnMobile'        
             >
@@ -92,7 +93,7 @@ const Article = ({ data }) => {
 
                     {
                         data.mdx.tableOfContents.items.map(item => (
-                            <li key={item.title} style={{listStyleType: 'none'}}>                    
+                            <li key={item.title} style={{listStyleType: 'none', textAlign: 'left'}}>                    
                                 <AnchorLink to={`${item.url}`}>{item.title}</AnchorLink>
                             </li>
                         ))

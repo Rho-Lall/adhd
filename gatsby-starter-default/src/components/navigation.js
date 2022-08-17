@@ -21,7 +21,12 @@ const Navigation = () => {
     `)
 
     return (
-        <div style={{paddingTop: '2em', maxWidth: '260px'}} className="">
+        <div style={{paddingTop: '2em', maxWidth: '260px', paddingRight: '2em'}} className="">
+            
+            <Link to={`/`} style={{textDecoration:'none', font: 'var(--font-sx)', fontWeight: 'bold', paddingLeft: '1.5rem', paddingTop: '.3em', paddingRight: '.2em'}}>
+              Start Here
+            </Link>
+
             <ul>
                 {
                     data.allMdx.nodes.map((node) => (

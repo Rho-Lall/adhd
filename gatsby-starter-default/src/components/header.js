@@ -20,24 +20,25 @@ const Header = ({ siteTitle }) => (
   >
     <div      
       style={{  
-        flexBasis: 1,
-        flexGrow: 1,
+      width: '260px'
       }}
       className="hideOnMobile"
     >
-      <Link
-        to="/"
+      <p
         style={{
           fontSize: `1.5em`,  
           textDecoration: `none`,
           float: 'right',
-          paddingRight: '.5em'
-
+          paddingRight: '.5em',
+          paddingTop: '.5em'
         }}
       >
-        Rho Lall DOCS
-      </Link>
-
+          Rho Lall DOCS
+      </p>
+      
+      
+      
+      
     </div>
 
     <div
@@ -55,8 +56,7 @@ const Header = ({ siteTitle }) => (
     
     <div
       style={{ 
-        flexBasis: 1,
-        flexGrow: 1,
+        width: '270px',
         paddingLeft: '.5em'
       }} 
       className="hideOnMobile"

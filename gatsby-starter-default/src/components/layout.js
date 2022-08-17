@@ -40,9 +40,10 @@ const Layout = ({ children }) => {
         
         <nav
           style={{
-            flexBasis: 1,
-            flexGrow: 1,
-            backgroundColor: '#F5F7F9'
+            // flexBasis: 1,
+            // flexGrow: 1,
+            backgroundColor: '#F5F7F9',
+            Width: '300px'
           }}
           className="hideOnMobile"
         >
@@ -55,7 +56,6 @@ const Layout = ({ children }) => {
             flexGrow: 5,
             padding: '2em',
             display: 'flex',
-            // maxWidth: '800px'
           }}
         >
           {children}
