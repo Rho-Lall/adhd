@@ -41,13 +41,13 @@ const Hamburger = () => {
                 top: '0',
                 left: '0',
                 height: '100vh',
-                width: '75%',
+                width: '40%',
                 background: '#d7d7d7',
                 opacity: '.95'
 
             }}>
                 <div style={{
-                    top: '4rem',
+                    top: '1rem',
                     left: '1rem',
                     maxWidth: '70vw',
                 }}>
