@@ -54,7 +54,8 @@ const Layout = ({ children }) => {
             flexBasis: 5,
             flexGrow: 5,
             padding: '2em',
-            display: 'flex'
+            display: 'flex',
+            // maxWidth: '800px'
           }}
         >
           {children}

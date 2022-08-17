@@ -21,7 +21,7 @@ const Navigation = () => {
     `)
 
     return (
-        <div style={{paddingTop: '2em', backgroundColor: ''}} className="">
+        <div style={{paddingTop: '2em', maxWidth: '260px'}} className="">
             <ul>
                 {
                     data.allMdx.nodes.map((node) => (

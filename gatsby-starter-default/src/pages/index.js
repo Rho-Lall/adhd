@@ -63,62 +63,160 @@ const IndexPage = () => (
       <h1>A good education, is the most important gift you can give your child.</h1> 
       {/* <GatsbyImage image={image} alt={"Accomodations for ADHD"} style={{marginBottom:'1em'}}/> */}
 
-      <StaticImage src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
       <br/>
       <br/>
+
+      <p>
+        Negotiating accommodations for students with ADHD is frustrating and debilitating for many parents. It can be an ordeal to try to get the accommodations for ADHD that your child needs in order to be successful. Some parents give up resigned to make do with what they have. However, other parents prevail and are able to get the accommodations that their child needs. 
+      </p>
+
+      <p>
+        What makes the difference? Research, planning, and preparation. If you take the time to research possible accommodations for students with ADHD, you will be better prepared to make a case for why your child needs them. You can secure a successful outcome if you take the time to plan and prepare for your meeting with the school. 
+      </p>
+
       <p>
         As a parent of a student with ADHD, you have two objectives. First, ensure your child receives a free appropriate public education, which includes special education and related services tailored to his or her specific needs in order to prepare them for further study, employment, and independent living. Second, establish a healthy working relationship with school staff.
       </p>
 
-      <h2>A note to teachers who work with students with ADHD.</h2>  
-        <p>
-          When emotions are under control on both sides, parents are easier to work with when they understand the law. Parents want their children to learn. Parents want your success. When parents preserve notes of events and agreements, help their IEP team stay on track, and foster positive working relationships with teachers and other professionals, everyone benefits. Especially the child.
-        </p>
+      <h2>A note to teachers who work with students with ADHD</h2>  
 
-
-      <h2>Step One. Request to have your child tested for an IEP.</h2> 
       <p>
-        Your child is struggling in school. Are you puzzling over how you can help? You can request for your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data. 
+        When emotions are under control on both sides, parents are easier to work with when they understand the law. Parents want their children to learn. Parents want your success. When parents preserve notes of events and agreements, help their IEP team stay on track, and foster positive working relationships with teachers and other professionals, everyone benefits. Especially the child.  
       </p>
 
-      <h2>Step Two. Test Your Child. </h2>
+      <h2>Getting Up to Speed on Requesting Accommodations for Students with ADHD</h2>
+
       <p>
-        The evaluation requires a variety of assessment tools and strategies to gather information about your child's academic ability as well as functional and developmental ability.
+        Disability is a natural part of the human experience and in no way diminishes your child's right to participate in and contribute to society. Know exactly what you want and be ready to fight for it. With a little bit of effort, you can make sure that your child gets the accommodations for ADHD they need.
+      </p>
+
+      <p>
+        There is a lot to learn but you don't need to learn it all to start. This article concentrates on the tasks you must accomplish and what you can start doing right now. It's an overview of what you need to know to complete each step. The rest of the articles build on each step with additional knowledge so you can be confident that you know what you need when you need it. It's set up to find information quickly.
+      </p>
+
+      <h2>Step One: Request an IEP evaluation from your school</h2> 
+
+      <p>
+        Your child is struggling in school. Are you puzzling over how you can help? You can request your child be assessed for an IEP. This will help determine if their education is being negatively impacted by a disability through a formal evaluation and review of data.
+      </p>
+
+      <p>
+        An IEP, also known as an Individualized Education Program, is a paper that specifies services such as specialized education and accommodations for ADHD to assist your child in school. Accommodations for students with ADHD might include, among other things, additional time for exams, preferred seating, and breaks during class. They are based on each child's unique needs and are meant to ensure your child's access to a free appropriate public education. IEPs and 504 plans are often talked about hand in hand. 
       </p> 
+
       <p>
-        This is the time to start developing subject matter expertise, so start reading.
-      </p>
-  
-      <h2>Step Three. Get Organized. </h2>
-      <p>
-        Having documentation at your fingertips is vital. Get organized. Stay organized.  This isn't a prelude to the job. This is the job. It's time to set up your binder.
+        The first step is is to request your child be tested for an IEP. When requesting testing for an IEP, you have the option to fall back to a 504 Plan. These articles cover additional useful information:
       </p>
 
-      <h2>Step Four. Review the results with the school.</h2>
+      <ul>
+        <li>Requesting Testing for an IEP: Why It's Important and How to Do It</li>
+        <li>IEP Testing Process</li>
+      </ul>
+
+      <h2>Step Two: Get Organized</h2>
+
       <p>
-        The school must use a variety of technically sound instruments to assess the relative contribution of these factors: cognitive, behavioral, physical, and developmental. Is there sufficient evidence to present an assessment in each area? 
+        The second critical thing you need to do after you request your child be tested for ADHD is to get organized. Half the battle is already won through organization and preparation. This isn't a prerequisite to the work at hand . . . this is the work at hand. In the article, Organization Tips for the Busy Parent, we will cover how to get organized. 
       </p>
 
-      <h2>Step Five. Qualify For Services.</h2>
+      <p>
+        IEPs are by nature short-term. An advantage of organizing your information is to get the whole picture of everything, you'll be able to see where to focus and what to fight for. In Developing Page One I'll take you through a tool that will help you do just that. Preparedness and organization give your child and IEP team the greatest chance of success. 
+      </p>
+
+      <h2>Step Three: Qualify for Services</h2>
+
       <p>
         Does an ADHD student qualify for special education? What are the criteria? After completing the evaluation and review of the data available, a team of qualified professionals, parents, and (if appropriate) the student determine whether special education and related services are required.
       </p>
 
-      <h2>Step Six. Develop a Plan</h2>
       <p>
-        What is an IEP? What is a 504 Plan? How do they differ? Which option is better for your child? Each has its own set of rules. You should be familiar with the distinctions to ensure that the correct plan is employed for your child.
-      </p>  
+        This is a crucial yet understated step. We can't organize a plan until your child meets the necessary requirements for services. We need to cover the criteria for qualifying for specialized services and accommodations for ADHD.
+      </p>
 
       <p>
-      Keep in mind that the team starts by discussing the needs of the child. The next step is to determine what services are required. The team also decides where the services should be delivered. One of the goals of IDEA is for a kid with a disability to receive an education that is similar to that provided to children without disabilities,  in the Least Restrictive Environment.
+        This is where we start getting into it. We'll go through IEPs, 504s, and the differences. I've set up distinct articles for each of them. Individualized Education Plans are known as IEPs and are established when a student requires more assistance than the school may give in its general education setting. It is created by a team that includes medical personnel, educators, parents, and the student. IEPs are established by the Individuals with Disabilities Act (IDEA) and are designed to ensure a free appropriate public education for children with disabilities so they can have access to education comparable to their non-disabled peers. 
       </p>
-      
-      <h2>Step Seven. Beyond the IEP Meeting</h2>
+
       <p>
-        As you go beyond the meeting, a file folder or binder will come in very handy for tracking your child's educational documents and history of needs and services. When there are disagreements or when the process breaks down it is best to seek to resolve difficulties at the lowest possible level. Most resolution options have a process or chain of command to follow. Having an organized binder is essential to navigating the process chain.
+        Section 504 of the Rehabilitation Act of 1973 is a federal civil rights law that prohibits discrimination on the basis of disability. A 504 Plan is designed to accommodate children with disabilities so they can access general education with their non-disabled peers. 
       </p>
         
+      <p>
+        When it comes to ADHD specifically, IEPs and 504s can both be used to ensure that students with ADHD receive necessary services. There are differences. We will get into them. These articles will help clarify the benefits of each and the differences:
+      </p>
+      <ul>
+        <li>Why an IEP May Be Better Than a 504 Plan for Your ADHD Elementary Student</li>
+        <li>IEPs for ADHD</li>
+        <li>504 Plans for ADHD</li>
+        <li>What Every Parent of an ADHD Child Should Know About Their Legal Rights</li>
+      </ul>
+
+      <h2>Step Four: Developing Your Plan</h2>
+
+      <p>
+        Setting goals is critical to the success of an IEP. Setting objectives is a major component of the IEP. It's tough to know what needs to be done and how to prioritize tasks if there aren't any clear goals. The IEP will be used to keep track of the student's progress. Set up for success! Your success! The IEP team's success! Your child's success! This section will help you develop a plan and set proper goals. These articles will help you brainstorm accommodations for students with ADHD:
+      </p>
+
+      <ul>
+        <li>Win With Your Child's IEP Team</li>
+        <li>IEP Team Members, Roles, and Responsibilities</li>
+        <li>Accommodations for ADHD</li>
+        <li>504 Accommodations for ADHD</li>
+        <li>Classroom Accommodations for ADHD</li>
+      </ul>
+
+      <h2>Step Five: Advocacy</h2>
+
+      <p>
+        You may be wondering what the school is required to provide. You might be feeling apprehensive. That helpless feeling is a problem with a simple solution . .. knowledge. There is no substitute for knowing the rules. 
+      </p>
+
+      <p>
+        In these articles, we cover what advocacy involves and how to do it well, and the dangers to avoid:
+      </p>
+
+      <ul>
+        <li>Why Parents Are the Best Advocates for Their Children</li>
+        <li>Resolving Disputes</li>
+      </ul>
+
+      <h2>Step Six: Leadership & Project Management</h2>
+      <ul>
+        <li>Creating Paper Trails</li>
+        <li>Preparing for Meetings</li>
+        <li>Leading Effective Meetings</li>
+      </ul>
+
+      <h2>Step Seven: Learn</h2>
+
+      <p>
+        Subject Matter Expertise involves constant learning. There is a lot we are still learning about ADHD. These articles will get you started on the journey:
+      </p>
+
+      <ul>
+        <li>The Top 10 Things You Should Know About ADHD</li>
+        <li>ADHD in the Classroom</li>
+        <li>High Achievers with ADHD</li>
+      </ul>
+
+      <h2>Questions & Answers</h2>
+
+      <p>
+        Finally, we close with a list of questions that come up, and their answers.
+      </p>
+  
+      <h2>Beyond the IEP Meeting</h2>
+      <p>
+       There are certain steps that you need to take to secure accomodations for students with ADHD. It's easy to get overwhelmed. Just take it a step at a time. And breath.
+      </p>
+
+      <p>
+        As you go beyond the meeting, your binder will come in handy for tracking your child's educational documents and progress. When there are disagreements or when the process breaks down it is best to seek to resolve difficulties at the lowest possible level. Most resolution options have a process or chain of command to follow. Documenting your interactions and having an organized binder are essential to navigating that process.
+      </p>
+
     </div>
+
   </Layout>
 )
 

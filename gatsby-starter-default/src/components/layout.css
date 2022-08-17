@@ -78,10 +78,16 @@ h1 {
   padding: 0;
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
+  max-width: 800px;
 }
 h1 > b {
   color: var(--color-primary);
 }
+
+/* h2 {
+  max-width: 800px;
+} */
+
 img {
   border-style: none;
   max-width: 100%;
@@ -127,6 +133,8 @@ p {
   margin: 0;
   padding: 0;
   margin-bottom: var(--space-4);
+  text-align: justify;
+  max-width: 800px;
 }
 ul,
 ol {
@@ -178,9 +186,7 @@ p *:last-child {
 li > p {
   margin-bottom: calc(var(--space-4) / 2);
 }
-p {
-  max-width: 680px;
-}
+
 code {
   font-size: 0.875rem;
 }
@@ -242,6 +248,8 @@ pre tt:after {
   .showOnMobile {
     display: block;
   }
+
+  
 }
 
 .dwn {
