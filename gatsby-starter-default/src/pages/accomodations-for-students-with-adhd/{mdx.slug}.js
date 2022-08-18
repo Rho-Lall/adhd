@@ -45,17 +45,16 @@ const Article = ({ data }) => {
                 <MDXRenderer>
                     {data.mdx.body}
                 </MDXRenderer>
-
+                <br/>
                 <h3>A Note on Terms and References.</h3>
+                <p>
+                    When the language of a law addresses ADHD directly I provide <Link to='https://sites.ed.gov/idea/statute-chapter-33/subchapter-i/1400'>a reference to the source material.</Link>
+                </p>
                 <p>
                     Reference sources such as the <Link to='https://sites.ed.gov/idea/statute-chapter-33/subchapter-i/1400'>Individuals with Disabilities Education Act</Link> & Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act speak about “individuals with disabilities” generally but also make specific mention of ADHD in the language of the law.
                 </p>
-
                 <p>
-                    This resource is written specifically for ADHD elementary students and discusses specific accomodations for students with ADHD. When the law mentions “individuals with disabilities” generally I may use these terms interchangeably: accomodations for ADHD, accomodations for students with ADHD, ADHD elementary students.
-                </p>
-                <p>
-                    When the language of a law addresses ADHD directly I provide <Link to='https://sites.ed.gov/idea/statute-chapter-33/subchapter-i/1400'>a reference to the source material.</Link>
+                    This is written specifically for parents looking for help getting specialized education and <Link to='/accomodations-for-students-with-adhd/accommodations-for-adhd'>accommodations for ADHD</Link> and discusses specific <Link to='/accomodations-for-students-with-adhd/accommodations-for-adhd'>accomodations for students with ADHD</Link>. When the law makes general mention of “individuals with disabilities” I may use any of these terms interchangeably: accomodations for ADHD, accomodations for students with ADHD, ADHD elementary students.
                 </p>
             </div>
 
