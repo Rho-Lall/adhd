@@ -9,7 +9,6 @@ import {Helmet} from 'react-helmet'
 
 // MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
 // DONE   hamburger menu on mobile
-// PREVIOUS / NEXT buttons
 // Functional Open Graph links for social media with images
 
 // CSS FORMATING
@@ -25,8 +24,6 @@ import {Helmet} from 'react-helmet'
 
 
 // VERSION II
-
-
 // DOCS in the title is replaced with smaller pill tha reads DOCS.
 
 // PAGE STRUCTURE
@@ -37,7 +34,7 @@ import {Helmet} from 'react-helmet'
 // Carrots for dropdown menus
 // Dropdown Menus
 // Powered By Rho Lall with an Image
-// Previous / Next Buttons
+// Previous / Next Buttons - https://www.youtube.com/watch?v=3CfJa4cukt4
 
 //const image = getImage('./media/504_plan_or_iep.png')
 
@@ -63,7 +60,7 @@ const IndexPage = () => (
       <h1>A good education, is the most important gift you can give your child.</h1> 
       {/* <GatsbyImage image={image} alt={"Accomodations for ADHD"} style={{marginBottom:'1em'}}/> */}
 
-      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/getting_started.png" alt="Accomodations for ADHD"/>
       <br/>
       <br/>
 
@@ -87,6 +84,7 @@ const IndexPage = () => (
 
       <h2>Getting Up to Speed on Requesting Accommodations for Students with ADHD</h2>
 
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/ieps-and-504s.png" alt="Accomodations for ADHD"/>
       <p>
         Disability is a natural part of the human experience and in no way diminishes your child's right to participate in and contribute to society. Know exactly what you want and be ready to fight for it. With a little bit of effort, you can make sure that your child gets the accommodations for ADHD they need.
       </p>
@@ -105,6 +103,7 @@ const IndexPage = () => (
         An IEP, also known as an Individualized Education Program, is a paper that specifies services such as specialized education and accommodations for ADHD to assist your child in school. Accommodations for students with ADHD might include, among other things, additional time for exams, preferred seating, and breaks during class. They are based on each child's unique needs and are meant to ensure your child's access to a free appropriate public education. IEPs and 504 plans are often talked about hand in hand. 
       </p> 
 
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/testing.png" alt="Accomodations for ADHD"/>
       <p>
         The first step is is to request your child be tested for an IEP. When requesting testing for an IEP, you have the option to fall back to a 504 Plan. These articles cover additional useful information:
       </p>
@@ -126,6 +125,7 @@ const IndexPage = () => (
 
       <h2>Step Three: Qualify for Services</h2>
 
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/your_legal_rights.png" alt="Accomodations for ADHD"/>
       <p>
         Does an ADHD student qualify for special education? What are the criteria? After completing the evaluation and review of the data available, a team of qualified professionals, parents, and (if appropriate) the student determine whether special education and related services are required.
       </p>
@@ -168,6 +168,7 @@ const IndexPage = () => (
 
       <h2>Step Five: Advocacy</h2>
 
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/advocacy.png" alt="Accomodations for ADHD"/>
       <p>
         You may be wondering what the school is required to provide. You might be feeling apprehensive. That helpless feeling is a problem with a simple solution . .. knowledge. There is no substitute for knowing the rules. 
       </p>
@@ -190,6 +191,7 @@ const IndexPage = () => (
 
       <h2>Step Seven: Learn</h2>
 
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/understanding_adhd.png" alt="Accomodations for ADHD"/>
       <p>
         Subject Matter Expertise involves constant learning. There is a lot we are still learning about ADHD. These articles will get you started on the journey:
       </p>
@@ -205,6 +207,8 @@ const IndexPage = () => (
       <p>
         Finally, we close with a list of questions that come up, and their answers.
       </p>
+
+      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/questions.png" alt="Accomodations for ADHD"/>
   
       <h2>Beyond the IEP Meeting</h2>
       <p>
