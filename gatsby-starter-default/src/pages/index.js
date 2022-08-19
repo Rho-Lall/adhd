@@ -9,14 +9,15 @@ import {Helmet} from 'react-helmet'
 
 // MVP TO FORK A NEW PROJECT - IE MARKETING NOTES, BDTB
 // DONE   hamburger menu on mobile
-// Functional Open Graph links for social media with images
+// DONE   Functional Open Graph links for social media with images
 
 // CSS FORMATING
-// content area is justified and centered on the title
-// Headers are black 
-// Structural headers are small, light grey, ALL CAPS
-// text is light grey, and smaller
-// links are purple (no underline) and underline on hover
+// DONE   content area is justified and centered on the title
+// DONE   Headers are black 
+// DONE   links are purple (no underline) and underline on hover
+// DONE   Top link to a specific MAIN page, possibly "accomodations for ADHD" ?
+
+
 
 // Working Search
 // Working Copy Link - should add url to clipboard
@@ -25,16 +26,18 @@ import {Helmet} from 'react-helmet'
 
 // VERSION II
 // DOCS in the title is replaced with smaller pill tha reads DOCS.
+// Structural headings in the Navigation pane. Format of headings is small, light grey, ALL CAPS
+// Previous / Next Buttons - https://www.youtube.com/watch?v=3CfJa4cukt4
 
 // PAGE STRUCTURE
-// Top link to a specific MAIN page, possibly "accomodations for ADHD" ?
 // Navication at the top?
 // Outline icon (right justified content)
 // Scroll bar on Contents
 // Carrots for dropdown menus
 // Dropdown Menus
 // Powered By Rho Lall with an Image
-// Previous / Next Buttons - https://www.youtube.com/watch?v=3CfJa4cukt4
+// text is light grey, and smaller (ask Anna. Is it a good size?)
+
 
 //const image = getImage('./media/504_plan_or_iep.png')
 

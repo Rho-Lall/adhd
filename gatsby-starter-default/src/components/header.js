@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
         textAlign: 'right'
       }}      
     >
-      Resources for Faculty & Parents of Students with ADHD
+      <Link to='/accomodations-for-students-with-adhd/accommodations-for-adhd'>Accomodations For Students with ADHD</Link>
     </div>
     
     <div
