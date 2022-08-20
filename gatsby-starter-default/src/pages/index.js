@@ -17,11 +17,10 @@ import {Helmet} from 'react-helmet'
 // DONE   links are purple (no underline) and underline on hover
 // DONE   Top link to a specific MAIN page, possibly "accomodations for ADHD" ?
 
-
-
-// Working Search
+// Table of Contents (OUTLINE) Icon (use the right justified content icon)
 // Working Copy Link - should add url to clipboard
-// Export to PDF should link to another page so we can track the need for this feature, maybe an opt-in page
+// Working Search
+// Export as PDF should link to another page so we can track the need for this feature, maybe an opt-in page
 
 
 // VERSION II
@@ -30,11 +29,9 @@ import {Helmet} from 'react-helmet'
 // Previous / Next Buttons - https://www.youtube.com/watch?v=3CfJa4cukt4
 
 // PAGE STRUCTURE
-// Navication at the top?
-// Outline icon (right justified content)
-// Scroll bar on Contents
-// Carrots for dropdown menus
-// Dropdown Menus
+// Navigation at the top?
+// Navigation has Dropdown Menus with carrots
+// Navigation has scroll bar
 // Powered By Rho Lall with an Image
 // text is light grey, and smaller (ask Anna. Is it a good size?)
 
