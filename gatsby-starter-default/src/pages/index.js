@@ -17,6 +17,7 @@ import {Helmet} from 'react-helmet'
 // DONE   links are purple (no underline) and underline on hover
 // DONE   Top link to a specific MAIN page, possibly "accomodations for ADHD" ?
 
+// figure out how to format quotes or code blocks or something to create the formatted call out boxes in the MDX files.
 // Table of Contents (OUTLINE) Icon (use the right justified content icon)
 // Working Copy Link - should add url to clipboard
 // Working Search
