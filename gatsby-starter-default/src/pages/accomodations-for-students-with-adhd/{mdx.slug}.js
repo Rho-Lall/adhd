@@ -72,20 +72,20 @@ const Article = ({ data }) => {
                 <ul style={{}}>
                     <li style={{listStyleType: 'none'}}>
                     
-                        <img src="https://img.icons8.com/material-sharp/24/undefined/export-pdf.png" alt="export PDF"/> Export as PDF
+                        <img src="https://img.icons8.com/material-sharp/20/undefined/export-pdf.png" alt="export PDF"/> Export as PDF
                     
                     </li>
                     <li style={{listStyleType: 'none'}}>
-                    <img src="https://img.icons8.com/ios-filled/25/undefined/copy-link.png" alt="copy link"/> Copy Link
+                    <img src="https://img.icons8.com/ios-filled/20/undefined/copy-link.png" alt="copy"/> Copy Link
                     </li>
                 </ul>
-
+    
                 <p
                     style={{
                         paddingLeft: '1.5em'
                     }}
                 >
-                    Table of Contents
+                    <img src="https://img.icons8.com/ios-filled/15/undefined/align-right.png" alt="TOC Link"/> Table of Contents
                 </p>
 
                 <ul style={{}}>
@@ -100,6 +100,9 @@ const Article = ({ data }) => {
 
                 </ul>
 
+                <p>
+                rho-lall.github.io/adhd/accomodations-for-students-with-adhd/{data.mdx.slug}/
+                </p>
 
             </aside>
         </Layout>
@@ -109,21 +112,21 @@ const Article = ({ data }) => {
 }
 
 export const query = graphql`
-query content($id: String) {
-    mdx(id: {eq: $id}) {
-      frontmatter {
-        title
-        chapter
-        keywords
-        publish(formatString: "MMMM DD, YYYY")
-        update(formatString: "MMMM DD, YYYY")
-        short
-      }
-      slug
-      body
-      tableOfContents(maxDepth: 3)
+    query content($id: String) {
+        mdx(id: {eq: $id}) {
+            frontmatter {
+                title
+                chapter
+                keywords
+                publish(formatString: "MMMM DD, YYYY")
+                update(formatString: "MMMM DD, YYYY")
+                short
+            }
+            slug
+            body
+            tableOfContents(maxDepth: 3)
+        }
     }
-  }
 `
 
 
