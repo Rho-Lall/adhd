@@ -100,10 +100,6 @@ const Article = ({ data }) => {
 
                 </ul>
 
-                <p>
-                rho-lall.github.io/adhd/accomodations-for-students-with-adhd/{data.mdx.slug}/
-                </p>
-
             </aside>
         </Layout>
 
