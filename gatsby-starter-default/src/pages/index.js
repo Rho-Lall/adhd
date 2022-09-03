@@ -121,8 +121,13 @@ const IndexPage = () => (
       </p>
 
       <p>
-        IEPs are by nature short-term. An advantage of organizing your information is to get the whole picture of everything, you'll be able to see where to focus and what to fight for. In Developing Page One I'll take you through a tool that will help you do just that. Preparedness and organization give your child and IEP team the greatest chance of success. 
+        IEPs are by nature short-term. An advantage of organizing your information is to get the whole picture of everything, you'll be able to see where to focus and what to fight for. In Developing Page One I'll take you through a tool that will help you do just that. Preparedness and organization give your child and IEP team the greatest chance of success. These articles cover additional useful information:
       </p>
+
+      <ul>
+        <li>Organization Tips for the Busy Parent</li>
+        <li>Develop Page One</li>
+      </ul>
 
       <h2>Step Three: Qualify for Services</h2>
 
@@ -147,10 +152,8 @@ const IndexPage = () => (
         When it comes to ADHD specifically, IEPs and 504s can both be used to ensure that students with ADHD receive necessary services. There are differences. We will get into them. These articles will help clarify the benefits of each and the differences:
       </p>
       <ul>
-        <li>Why an IEP May Be Better Than a 504 Plan for Your ADHD Elementary Student</li>
-        <li>IEPs for ADHD</li>
-        <li>504 Plans for ADHD</li>
-        <li>What Every Parent of an ADHD Child Should Know About Their Legal Rights</li>
+        <li>IEPs and 504s: Why an IEP May Be Better</li>
+        <li>What Legal Rights Every Parent Should Know About</li>
       </ul>
 
       <h2>Step Four: Developing Your Plan</h2>
@@ -160,11 +163,9 @@ const IndexPage = () => (
       </p>
 
       <ul>
-        <li>Win With Your Child's IEP Team</li>
+        <li>Win With Your IEP Team</li>
         <li>IEP Team Members, Roles, and Responsibilities</li>
         <li>Accommodations for ADHD</li>
-        <li>504 Accommodations for ADHD</li>
-        <li>Classroom Accommodations for ADHD</li>
       </ul>
 
       <h2>Step Five: Advocacy</h2>
