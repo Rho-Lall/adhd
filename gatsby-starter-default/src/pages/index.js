@@ -181,37 +181,10 @@ const IndexPage = () => (
 
       <ul>
         <li>Why Parents Are the Best Advocates for Their Children</li>
-        <li>Resolving Disputes</li>
-      </ul>
-
-      <h2>Step Six: Leadership & Project Management</h2>
-      <ul>
         <li>Creating Paper Trails</li>
-        <li>Preparing for Meetings</li>
-        <li>Leading Effective Meetings</li>
+        <li>Questions & Answers</li>
       </ul>
 
-      <h2>Step Seven: Learn</h2>
-
-      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/understanding_adhd.png" alt="Accomodations for ADHD"/>
-      <p>
-        Subject Matter Expertise involves constant learning. There is a lot we are still learning about ADHD. These articles will get you started on the journey:
-      </p>
-
-      <ul>
-        <li>The Top 10 Things You Should Know About ADHD</li>
-        <li>ADHD in the Classroom</li>
-        <li>High Achievers with ADHD</li>
-      </ul>
-
-      <h2>Questions & Answers</h2>
-
-      <p>
-        Finally, we close with a list of questions that come up, and their answers.
-      </p>
-
-      <StaticImage style={{maxWidth: '800px'}}src="../../blog/media/questions.png" alt="Accomodations for ADHD"/>
-  
       <h2>Beyond the IEP Meeting</h2>
       <p>
        There are certain steps that you need to take to secure accomodations for students with ADHD. It's easy to get overwhelmed. Just take it a step at a time. And breath.
