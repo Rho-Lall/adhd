@@ -151,16 +151,21 @@ const IndexPage = () => (
         <li><Link>What Legal Rights Every Parent Should Know About</Link></li>
       </ul>
 
-      <h2>Step Four: Developing Your Plan</h2>
+      <h2>Step Four: Developing Your IEP</h2>
 
       <p>
-        Setting goals is critical to the success of an IEP. Setting objectives is a major component of the IEP. It's tough to know what needs to be done and how to prioritize tasks if there aren't any clear goals. The IEP will be used to keep track of the student's progress. Set up for success! Your success! The IEP team's success! Your child's success! This section will help you develop a plan and set proper goals. These articles will help you brainstorm accommodations for students with ADHD:
+        Setting goals is critical to the success of an IEP. Setting goals is a major component of the IEP. It's tough to know what needs to be done and how to prioritize tasks if there aren't any clear goals. The IEP will be used to keep track of the student's progress towards these goals. Set up for success! Your success! The IEP team's success! Your child's success! These articles will help you develop a plan and set proper goals as well as brainstorm <Link>accommodations for ADHD</Link>:
       </p>
-
+      <p>
+        As a project manager for your child's IEP team, it is essential for goals and objectives to be clear and concise. Your role is to bring clarity to the chaos and help everyone on the team stay focused on the task at hand. Every member of the IEP team has a role to play, including yourself, and it is important that you understand what those roles are in order to secure modifications and accommodations for ADHD as needed.
+      </p>
+      <p>
+        Following are three resources that will help your IEP team achieve success. In <Link>Develop Your IEP for ADHD</Link>, we'll go through what goes into an IEP. We'll discuss how you may assist the IEP team succeed. In the section after that, <Link>IEP Team Members, Roles, and Responsibilities</Link>, we'll go through each member of the IEP team, including you. This article, <Link>Accommodations for ADHD</Link>, provides some suggestions to help you come up with ideas to suggest at your next IEP meeting.
+      </p>
       <ul>
-        <li>Win With Your IEP Team</li>
-        <li>IEP Team Members, Roles, and Responsibilities</li>
-        <li>Accommodations for ADHD</li>
+        <li><Link>Develop Your IEP for ADHD</Link></li>
+        <li><Link>IEP Team Members, Roles, and Responsibilities</Link></li>
+        <li><Link>Accommodations for ADHD</Link></li>
       </ul>
 
       <h2>Step Five: Advocacy</h2>
